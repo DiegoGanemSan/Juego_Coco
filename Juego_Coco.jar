@@ -1,0 +1,370 @@
+package miproyecto;
+
+//Diego Ganem Sandoval
+import java.util.Scanner;
+ public class MyClass {//All
+
+
+     public static void main(String args[]) {//Constructor
+//Variables Inicales
+int a;
+a = 1;
+int b;
+b = 2;
+int r;
+
+//Bienvenida
+System.out.println("Bienvenidos a los simuladores COCO");
+
+//Eleccion de simuladores
+Scanner sca = new Scanner(System.in);
+System.out.println("1)No estas solo  2)Fortuna,Gloria y asesinato");
+r = sca.nextInt();
+
+//Elecion de Historia
+if (r == 1) {//if
+                System.out.println("Eligio, No estas solo");
+                                        }//if
+
+if (r == 2) {//if
+                System.out.println("Eligio,Fortuna,Gloria y asesinato ");
+                                        }//if
+                                        
+if (r > 2) {//if
+                System.out.println(" ");
+}//if
+
+//Historias parte uno
+// Variables
+int c = 0;
+int d = 0;
+
+//Historia 1, parte 1
+if (r == 1) {//if
+System.out.println("Estas en una nave parcialmente destruida. Tras esto, te das cuenta que tu casco tiene una averia, que haces?");
+System.out.println("1) Lo tapas con la mano  2) Lo intentas sellar ");
+    c = sca.nextInt();
+                                        }//if
+
+//Elecion de Historia
+
+
+        if (c == 1) {//if
+                System.out.println("1) Mueres y tu cuerpo queda flotando en la infinidad del espacio");
+                                        }//if
+
+        if (c == 2) {//if
+                System.out.println("2) Lo puedes reparar y a duras penas sobrevives");
+                                        }//if
+                                        
+        if (c > 2) {//if
+                System.out.println(" ");
+                                        }//if
+ 
+//Historia 2, parte 1
+if (r == 2) {//if
+System.out.println("LLegas a un pueblo desertico. Te acuerdas que ese pueblo se llama St.Dennis, En donde te quieres dirigir?");
+System.out.println("1) Hay Bar  2) En la comisaria ");
+d = sca.nextInt();
+                                        }//if
+
+//Elecion de Historia
+
+        if (d == 1) {//if
+                System.out.println("1) Escuchas el ruido habitual de los bares, y entras");
+                                        }//if
+
+        if (d == 2) {//if
+                System.out.println("2) Ves un tablon de recompesas. Ahi hay dos carteles de busqueda");
+                                        }//if
+                                        
+        if (d > 2) {//if
+                System.out.println(" ");
+}//if
+ 
+//Historias parte 2
+
+//Variables
+int e = 0;
+int f = 0;
+int g = 0;
+
+//Historia 1, parte 2
+
+//Elecion de posibilidad 2
+if (c == 2) {//if
+System.out.println("Tras recuperarte, ves que tu nave esta mas deteriorada de lo que esperabas. Que haces? ");
+System.out.println("1) La computadora central no esta del todo desgraciada, tal vez puedas mandar un SOS  2) Vas por herramientas, para intentar reparar tu nave ");
+    e = sca.nextInt();
+                                        }//if
+
+        if (e == 1) {//if
+                System.out.println("1) La computadora esta mas deteriorada de lo que esperabas, y no sirve para nada");
+                                        }//if
+
+        if (e == 2) {//if
+                System.out.println("2) Tras ir al almacen, algo te ataca despiadadamente, y mueres");
+                                        }//if
+                                        
+        if (e > 2) {//if
+                System.out.println(" ");
+                                        }//if 
+
+//Historia 2, parte 2
+//Posibilidad 1
+if (d == 1) {//if
+System.out.println("Tras entar al bar, tomas asiento. El camarero te atiende. Tu preguntas por el precio del Whiskey, sin embargo es muy caro");
+System.out.println("1) Gastas tus ultimos ahorros por ese Whiskey 2) Te vas enojado de ese bar, por sus precios desorbitantes");
+    f = sca.nextInt();
+                                        }//if
+
+        if (f == 1) {//if
+                System.out.println("1) Estas disfrutando tu whiskey. En un rato sientes una mano presionando tu hombro");
+                                        }//if
+
+        if (f == 2) {//if
+                System.out.println("2) Tras salir del bar, inmediatamente alguien te empuja, y te tira al suelo");
+                                        }//if
+                                        
+        if (f > 2) {//if
+                System.out.println(" ");
+                                        }//if 
+                                        
+//Posibilidad 2
+if (d == 2) {//if
+System.out.println("Ves a la fotografia de los dos hombres. Cada uno de esos hombres te brinda diferentes recompesas. Que prefieres?");
+System.out.println("1) Vasta Fortuna 2) Honor");
+    g = sca.nextInt();
+                                        }//if
+
+        if (g == 1) {//if
+                System.out.println("1) Tras entregar la fotografia de la persona, el Sheriff, te indica que se oculta en una cueva cerca del pueblo");
+                                        }//if
+
+        if (g == 2) {//if
+                System.out.println("2) Tras entregar la fotografia de la persona, el Sheriff, te indica que se encuentra en el mismo hotel del pueblo ");
+                                        } //if
+          if (g > 2) {//if
+                System.out.println(" ");
+                                        }//if
+                                        
+//Historias parte 3
+
+//Variables
+int h = 0;
+int i = 0;
+int j = 0;
+int k = 0;
+int l = 0;
+
+//Historia 1, parte 3
+
+//Elecion de posibilidad 1
+if (e == 1) {//if
+System.out.println("Tras descartar la posibilidad de pedir ayuda, lo unico que queda es ir al almacen. Ahi te das cuenta de que algo estuvo recientemente ahi");
+System.out.println("1) Vas por las herramientas, y sales rapidamente de ahi  2) Investigas el rastro que dejo ahi, y prefieres armarte ");
+    h = sca.nextInt();
+                                        }//if
+
+        if (h == 1) {//if
+                System.out.println("1) Sales de ahi, sin embargo se puede escuchar un alboroto en las tuberias");
+                                        }//if
+
+        if (h == 2) {//if
+                System.out.println("2) Tras analizar el rastro que dejo el monstruo, sintes que algo emerge de las tuberias. Por suerte te diste cuenta y saliste rapidamente de ahi");
+                                        }//if
+                                        
+        if (h > 2) {//if
+                System.out.println(" ");
+                                        }//if 
+
+//Historia 2, parte 3, indice a 
+
+//Elecion de posibilidad 1
+if (f == 1) {//if
+System.out.println("Tras voltearte, te das cuenta que es tu enemigo. Tras esto sabes lo que te espera. Te levantas y sales del bar. Tu enemigo te da a elegir con o sin cuenta");
+System.out.println("1) Con Cuenta  2) Sin Cuenta ");
+    i = sca.nextInt();
+                                        }//if
+
+        if (i == 1) {//if
+                System.out.println("1)Como es habitual, se cuentan 3,2,1 y se eschucha dos disparos. Por los efectos de alchol no le diste, sin embargo ganaste respesto por ese gesto de honor");
+                                        }//if
+
+        if (i == 2) {//if
+                System.out.println("2)Tu enemigo no estaba listo cuando disparas a su espalda. Por los efectos de alchol no le das, ahi es cuando tu enemigo se voltea y te da. Moriste como un ser despresiable");
+                                        }//if
+                                        
+        if (i > 2) {//if
+                System.out.println(" ");
+                                        }//if 
+                                        
+//Elecion de posibilidad 2
+if (f == 2) {//if
+System.out.println("Trasleventarte, te das cuenta que es tu enemigo. Tras esto sabes lo que te espera.Preparas tu revolver. Tu enemigo te da a elegir con o sin cuenta");
+System.out.println("1) Con Cuenta  2) Sin Cuenta ");
+    j = sca.nextInt();
+                                        }//if
+
+        if (j == 1) {//if
+                System.out.println("1)Como es habitual, se cuentan 3,2,1. Tu ibas confiado pero sientes un impacto. Nunca esperarte su habilidad superior que la tuya");
+                                        }//if
+
+        if (j == 2) {//if
+                System.out.println("2)Tu enemigo no estaba listo cuando disparas a su espalda. Como no tenias efectos adversos le das. Lo sientes como victoria, sin embargo se lleno de policias rapidamente");
+                                        }//if
+                                        
+        if (j > 2) {//if
+                System.out.println(" ");
+                                        }//if 
+                                        
+//Historia 2, parte 3, indice b 
+
+//Elecion de posibilidad 1
+if (g == 1) {//if
+System.out.println("Tras llegar a la cueva. Ves al hombre. En su lado se puede observar un gran cofre lleno de oro en su lado. El hombre saco su pistola cuando te vio");
+System.out.println("1) Cubrirte en una roca cerca de la cueva  2) Dispararle ");
+    l = sca.nextInt();
+                                        }//if
+
+        if (l == 1) {//if
+                System.out.println("1)En el momento preciso del cual el dispara, tu logras cubrite, esto dandote la oportunidad de dispararle. Cuando lo impactas, saqueas el cofre. Eres rico ");
+                                        }//if
+
+        if (l == 2) {//if
+                System.out.println("2)Por factores obios, tu no pudiste vencerlo. Mueres en la cueva pasando como un cazarecompeza mediocre");
+                                        }//if
+                                        
+        if (l > 2) {//if
+                System.out.println(" ");
+                                        }//if 
+                                        
+//Elecion de posibilidad 2
+if (g == 2) {//if
+System.out.println(" Tras llegar al hotel ves el hombre buscado. Tienes de dos, atacarlo desprevenido o proponerle un duelo. Que escoges?  ");
+System.out.println("1) desprevenido  2) Proponerle Duelo ");
+    i = sca.nextInt();
+                                        }//if
+
+        if (i == 1) {//if
+                System.out.println("1) Cuando llegas al hotel, te acercas atras, y le disparas. Te vuelves querido en el pueblo y en poco tiempo te haces el nuevo sheriff");
+                                        }//if
+
+        if (i == 2) {//if
+                System.out.println("2) Te acercas al sujeto y le propones duelo. Los dos se preparan, hacen la cuenta 3,2,1, y se escuchan los dos disparos. Tu y el sujeto mueren, sin embargo tu por comportarte con honradez te vuelves un emblema de la cuidad");
+                                        }//if
+                                        
+        if (i > 2) {//if
+                System.out.println(" ");
+                                        }//if
+                                    
+//Historias parte 4
+
+//Variables
+int m = 0;
+int n = 0; 
+int p = 0;
+
+//Historia 1, parte 4
+//Elecion de posibilidad 1
+if (h == 1) {//if
+System.out.println("Pudiste llegar apenas en la cabina, te encerras. Tras esto solo tienes dos posibilidades, usar las refraciones para hacer trampa o reparar la nave, que haces?");
+System.out.println("1) Gastas todos los recursos para hacer trampas y armas 2) Intentas reparar la nave");
+    m = sca.nextInt();
+                                        }//if
+
+        if (m == 1) {//if
+                System.out.println("1) Con los recursos que podiste realizar, pudiste hacer algunas trampas que pudo alejar al monstruo. Te salvaste por el momento");
+                                        }//if
+
+        if (m == 2) {//if
+                System.out.println("2) La reparacion de la nave es muy tardada. El monstruo te elimina facilmente");
+                                        }//if
+                                        
+        if (m > 2) {//if
+                System.out.println(" ");
+                                        }//if
+//Elecion de posibilidad 2
+if (h == 2) {//if
+System.out.println("Tras encerar al monstruo en el almacen, escapas a la armeria. Ahi encuentras armas de bajo caibre. Que haces te resguardas ahi o cazas al monstruo?");
+System.out.println("1) Te resguardas en la armeria 2) Cazas al monstruo");
+    m = sca.nextInt();
+                                        }//if
+
+        if (n == 1) {//if
+                System.out.println("1) El monstruo se transporta facilmente atra vez de las tuberias. La armeria esta llena de tuberias. Fuiste presa facil");
+                                        }//if
+
+        if (n == 2) {//if
+                System.out.println("2) Algunos dicen que el exceso de valentia es muestra de idiotez. Tu lo acabas de comprobar ");
+                                        }//if
+                                        
+        if (n > 2) {//if
+                System.out.println(" ");
+                                        }//if
+
+//Historia 2, parte 4
+//Elecion de posibilidad 1
+    if (j == 2) {//if
+System.out.println("Tras asesinar a tu enemigo sin honor, la policia te rodea. Te pide que te rindas, que haces?");
+System.out.println("1) Rendirte 2) Escapar");
+    p = sca.nextInt();
+                                        }//if
+
+        if (p == 1) {//if
+                System.out.println("1) Cuando te rindes la policia te lleva a tu celda. Ahi pasas 2 decadas de tu vida. Tras salir de la carcel eres solamente un cuidadano normal");
+                                        }//if
+
+        if (p == 2) {//if
+                System.out.println("2) Escapas exitosamente. Te vuelves en un forajido celebre, que todos temen");
+                                        }//if
+                                        
+        if (p > 2) {//if
+                System.out.println(" ");
+                                        }//if
+ 
+ //Historias parte 5
+
+//Variables
+int x = 0;
+
+//Historia 1, parte 5
+//Elecion de posibilidad 1
+if (m == 1) {//if
+System.out.println("Las trampas ya no aguantaron mas los ataque del monstruo. Que haras?");
+System.out.println("1) Pegarle con la hacha que improvisaste 2) Romper las ventanas de la cabina");
+    x = sca.nextInt();
+                                        }//if
+
+        if (x == 1) {//if
+                System.out.println("1) La hacha no le pudo hacer nada. Te ataco ferozmente cuando entro");
+                                        }//if
+
+        if (x == 2) {//if
+                System.out.println("2) Antes de que rompiera las trampas, te asujetaste de uno de los cinturones de seguridad, rompiste las ventanas, la presion hizo lo demas. En un rato viste naves acercandose, seran de humano?");
+                                        }//if
+                                        
+        if (x > 2) {//if
+                System.out.println(" ");
+                                        }//if
+ 
+        //Easter Egg
+        if (x == 69) {//if
+                System.out.println("Cuando entra a la cabina, no fue para atacarte. Todo el momento que te estaba persiguiendo era para invitarte a una fiesta. Tu y el alien(que se llama timmy), se hacen mejores amigos ");
+                                        }//if
+ 
+ 
+ try{
+           //Lo que aparecera en la pantalla
+            System.out.println("Fin de la Simulaion");
+            }
+        
+        //Muestra si hay error
+        catch (Exception ex) {
+            System.out.println("Error a la hora de introducir el codigo cod:" + ex.getMessage());
+                                }   
+                                
+                        
+        
+    } //Constructor
+}//All
